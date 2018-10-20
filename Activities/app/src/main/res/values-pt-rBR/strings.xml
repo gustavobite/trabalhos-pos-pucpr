@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atividades</string>
+    <string name="activity_main_message">Toque abaixo para ir para a próxima activity</string>
+    <string name="activity_main_go">Ir</string>
+</resources>
