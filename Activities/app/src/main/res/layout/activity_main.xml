@@ -8,19 +8,34 @@
         tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/activity_main_message"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:textStyle="bold"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_message"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/btnGo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/activity_main_go"
-        android:layout_margin="10dp"/>
+            android:id="@+id/btnGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/activity_main_go"
+            android:layout_margin="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="Pedindo resposta: "/>
+
+    <Button
+            android:id="@+id/askOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Perguntar"/>
 
 </LinearLayout>
